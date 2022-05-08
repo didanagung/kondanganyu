@@ -4,10 +4,10 @@
 
 @layer base {
   .containerd {
-    @apply container bg-slate-300 shadow-2xl mx-auto p-2;
+    @apply container bg-[#f5f5f5] shadow-2xl mx-auto p-2 max-w-2xl;
   }
 
   .jam {
-    @apply bg-slate-500 w-1/6 aspect-square flex rounded-full;
+    @apply bg-emerald-500 w-1/6 aspect-square flex rounded-xl shadow-xl;
   }
 }
