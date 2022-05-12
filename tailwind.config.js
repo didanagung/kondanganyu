@@ -8,7 +8,7 @@ module.exports = {
         // 'coba1': "url('../src/img/1bg.png')",
         // 'coba2': "url('../src/img/1bgf.png')",
         // 'coba3': "url('../src/img/2bg.png')",
-        'coba4': "url('../src/img/5.jpg')",
+        'coba4': "url('../src/img/5.png')",
         // 'coba5': "url('../src/img/6.png')",
       }
     },

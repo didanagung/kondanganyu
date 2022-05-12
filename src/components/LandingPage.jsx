@@ -31,7 +31,7 @@ const LandingPage = () => {
             <p className='text-xl my-5'>Kepada Bapak/Ibu/Saudara/Saudari</p>
             <h2 className='text-4xl text-amber-500 mb-5'>{namaUndangan}</h2>
             <p>*Mohon maaf apabila kesalahan dalam menulis nama/gelar</p>
-            <button className='bg-emerald-500 p-2 rounded-full my-5 hover:bg-emerald-700 block mx-auto' onClick={() => {
+            <button className='transition ease-in-out delay-150 bg-emerald-800 p-2 rounded-full my-5 hover:-translate-y-1 hover:scale-110 hover:tombol block mx-auto' onClick={() => {
                 cobaPopup.classList.add("hidden");
             }}>Buka Undangan</button>
         </div>

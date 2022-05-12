@@ -4,10 +4,18 @@
 
 @layer base {
   .containerd {
-    @apply container bg-[#f5f5f5] shadow-2xl mx-auto p-2 max-w-2xl;
+    @apply container bg-[#fefffe] shadow-2xl mx-auto p-2 max-w-2xl;
   }
 
   .jam {
-    @apply bg-emerald-500 w-1/6 aspect-square flex rounded-xl shadow-xl;
+    @apply bg-gradient-to-br from-[#879c9b] via-[#67817e] to-[#566863] w-1/5 sm:w-2/12  aspect-square flex rounded-xl shadow-xl text-white;
+  }
+
+  .nama {
+    @apply font-water  text-5xl text-[#dfac57];
+  }
+
+  .tombol {
+    @apply bg-gradient-to-bl from-[#879c9b] via-[#67817e] to-[#566863] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110;
   }
 }
